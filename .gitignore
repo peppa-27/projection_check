@@ -1,0 +1,51 @@
+# Python and Numba caches
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local environments and editor settings
+.venv*/
+venv/
+env/
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+
+# Build output and logs
+build/
+dist/
+*.egg-info/
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Local datasets, weights, generated masks, and audits
+/data/
+/data2/
+/artifacts/
+/outputs/
+/checkpoints/
+*.prj
+*.slc
+*.raw
+*.bin
+*.npy
+*.npz
+*.nii
+*.nii.gz
+*.dcm
+*.pth
+*.pt
+*.onnx
+geometry_audit_*.json
+geometry_verified_*.png
+preview*.png
